@@ -1,4 +1,5 @@
 import { createContext, useState } from "react";
+import productsArray from "./ProductsArray"; 
 // import products array
 
 export const CartContext = createContext ({
@@ -34,7 +35,7 @@ export function CartProvider({children}) {
     } else {
       setCartProducts(
         cartProducts.map(
-          product => product.id === id ? { ...product, quantity: product.quantity}
+          product => product.id === id ? { ...product, quantity: product.quantity + 1}
           : product
 
         )
@@ -43,12 +44,33 @@ export function CartProvider({children}) {
 
   }
 
-  function removeOneFromCart
+  function removeOneFromCart(id){
+    const quantity = getProductQuantity(id);
+    if(quantity == 1){
+      deleteFromCart(id)
+    } else {
+      setCartProducts(
+        cartProducts.map(
+          product => product.id === id ? { ...product, quantity: product.quantity - 1}
+          : product
+
+        )
+      )
+    }
+  }
 
   function deleteFromCart(id){
     setCartProducts => cartProducts.filter(currentProduct => {
       return currentProduct.id != id;
     })
+  }
+
+  function getTotalCost(){
+    let getTotalCost = 0;
+    cartProducts.map((cartItem) => {
+      const productsData = productsArray.id;
+      totalCost += (productData.price * cartItem.quantity)
+    }); 
   }
 
   const contextValue = {
