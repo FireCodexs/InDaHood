@@ -13,6 +13,7 @@ class App extends Component {
   render() {
     return (
       <div>
+        
         <Router>
           <Routes>
             <Route path="/cart" />
@@ -39,6 +40,7 @@ class App extends Component {
           </Routes>
         </Router>
         <Cart />
+       
       </div>
     );
   }
