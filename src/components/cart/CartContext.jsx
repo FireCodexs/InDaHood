@@ -1,3 +1,7 @@
+
+// add
+// remove
+
 import React, { createContext, useState } from "react";
 
 
@@ -13,5 +17,6 @@ return <CartContext.Provider>{props.children}</CartContext.Provider>
 
 // add item to cart attached to button function
 // remove remove item to cart a 
+
 // count number
 //total price

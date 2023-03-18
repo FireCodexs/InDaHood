@@ -36,12 +36,13 @@ export default function Modal() {
             <img src="https://i.ibb.co/g9xsdCM/Rectangle-37.pngg" alt="Black Leather Bag" className="md:hidden w-full h-full object-center object-cover" />
           </div>
           <div className="md:pl-3 md:w-8/12 2xl:w-3/4 flex flex-col justify-center">
+
             <div className="flex items-center justify-between w-full pt-1">
               <p className="text-base font-black leading-none text-gray-800 dark:text-white">North wolf bag</p>
             </div>
             <div className="flex items-center justify-between pt-5">
               <div className="flex itemms-center">
-                <p className="text-xs leading-3 underline text-red-500 pl-5 cursor-pointer">Remove</p>
+              <p className="text-xs leading-3 underline text-red-500 pl-5 cursor-pointer">Remove</p>
               </div>
               <p className="text-base font-black leading-none text-gray-800 dark:text-white">,000</p>
             </div>
