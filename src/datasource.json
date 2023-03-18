@@ -14,8 +14,8 @@
     "id": 2,
     "name": "Ripped Jeans",
     "price": 49.99,
-    "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSJmJQRddm7x3lVW_Q_k61rYUjtjbl2PczbB6APQjrmtsIBp-LZSEC4tvBW239TwHovEOOJ7c3ymHycyotCb1NytXlVbQk7N1wt8OhkM-UWN1r9_m8&usqp=CAE",
-    "hoverImage": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTO_kwXnUfFoEWnZmoErQSJ6CmXMuzmART_GPFxSWGsk_-1kY5OeO0fksZQEjqO63LJFXtY_0TPWR-YHhAqS9VuNCC-vQaFB79ozhFXpSFPCYxfkiI&usqp=CAE",
+    "hoverImage": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSJmJQRddm7x3lVW_Q_k61rYUjtjbl2PczbB6APQjrmtsIBp-LZSEC4tvBW239TwHovEOOJ7c3ymHycyotCb1NytXlVbQk7N1wt8OhkM-UWN1r9_m8&usqp=CAE",
+    "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTO_kwXnUfFoEWnZmoErQSJ6CmXMuzmART_GPFxSWGsk_-1kY5OeO0fksZQEjqO63LJFXtY_0TPWR-YHhAqS9VuNCC-vQaFB79ozhFXpSFPCYxfkiI&usqp=CAE",
     "sizes": ["XS", "S", "M"],
     "category": "Jeans",
     "tags": ["Ripped", "Distressed", "Streetwear"]
