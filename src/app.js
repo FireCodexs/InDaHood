@@ -5,6 +5,7 @@ import Card from "./components/card/Card";
 import products from "./datasource.json";
 import Wrapper from "./components/wrapper/Wrapper";
 
+
 const App = () => {
   return (
     <section className="h-screen bg-gray-100">
