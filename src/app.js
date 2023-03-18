@@ -1,15 +1,36 @@
-import Cart from "./components/cart/Cart";
+import React, { useState, Component } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import React, { Component } from "react";
 import Card from "./components/card/Card";
 import products from "./datasource.json";
 import Wrapper from "./components/wrapper/Wrapper";
-
+import Cart from "./components/cart/Cart";
 
 const App = () => {
+  // const [show, setShow] = useState(true);
+  // const [cart, setCart] = useState([]);
+  // const [warning, setWarning] = useState(false);
+
+  // const handleClick = (product) => {
+  //   console.log(product);
+
+  //   cart.forEach((product) => {
+  //     if (item.id === product.id) {
+  //       isPresent = true;
+  //     }
+  //   });
+  //   if (isPresent) {
+  //     setWarning(true);
+  //     setTimeout(() => {
+  //       setWarning(false);
+  //     }, 2000);
+  //     return;
+  //   }
+  //   setCart([...cart, product]);
+  // };
+
   return (
     <section className="h-screen bg-gray-100">
-      <Cart />
+      {/* <Cart /> */}
       <Router>
         <Routes>
           <Route path="/cart" />
@@ -21,6 +42,7 @@ const App = () => {
                   <Card
                     key={product.id}
                     product={product}
+                    // handleClick={handleClick}
                     name={product.name}
                     image={product.image}
                     hoverImage={product.hoverImage}
