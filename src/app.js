@@ -11,10 +11,10 @@ import products from "./datasource.json";
 import Wrapper from "./components/wrapper/Wrapper";
 import HeroBanner from "./components/Hero/HeroBanner.jsx";
 
-const App = () => {
+function App() {
   return (
     <>
-      <section className="h-screen bg-[#333]">
+      <section className="bg-[#333]">
         <Router>
           <Navbar />
           <HeroBanner/>
@@ -30,7 +30,7 @@ const App = () => {
             <Route path="/contact" element={<Contact />} />
             {/* Define a route that will have descendant routes */}
             <Route path="/signup" element={<SignUp />} />
-           
+            <Route path="/cart" element={<Cart />} />
             <Route
               path="/"
               element={
