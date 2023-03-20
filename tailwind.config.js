@@ -2,6 +2,10 @@
 module.exports = {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
-    extend: {}},
+    extend: {
+      fontFamily:{
+        cursive: ['Dancing Script', 'cursive']
+      }
+    }},
   plugins: [],
 }

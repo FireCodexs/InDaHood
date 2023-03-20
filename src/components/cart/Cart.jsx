@@ -3,9 +3,9 @@ import Modal from "./Modal";
 
 function Cart(){
   return (
-    <>
+    
     <Modal/>
-    </>
+    
   )
 }
 
