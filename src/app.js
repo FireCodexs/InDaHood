@@ -9,13 +9,16 @@ import Cart from "./components/cart/Cart";
 import Card from "./components/card/Card";
 import products from "./datasource.json";
 import Wrapper from "./components/wrapper/Wrapper";
+import HeroBanner from "./components/Hero/HeroBanner.jsx";
 
 const App = () => {
   return (
     <>
-      <section className="h-screen bg-gray-100">
+      <section className="h-screen bg-[#333]">
         <Router>
           <Navbar />
+          <HeroBanner/>
+
           {/* Wrap Route elements in a Routes component */}
           <Routes>
             {/* Define routes using the Route component to render different page components at different paths */}
