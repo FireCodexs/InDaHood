@@ -1,6 +1,7 @@
 import React from 'react';
 //import { NavLink } from 'react-router-dom';
 import {IoMdContact} from 'react-icons/io';
+import Cart from '../cart/Cart';
 
 function Navbar() {
   return( 
@@ -16,12 +17,11 @@ function Navbar() {
         <li>
             <a href="/contact"><IoMdContact/></a>
         </li>
-        
+        <li>
+          <Cart />
+        </li>
         <button type="button" className="btn btn-outline-light">Sign In</button>
         <button className="btn btn-primary" href="#">Sign Up</button>
-        
-
-        
     </ul>
   </nav> 
   )
