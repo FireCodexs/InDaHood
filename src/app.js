@@ -30,7 +30,7 @@ const App = () => {
             <Route path="/contact" element={<Contact />} />
             {/* Define a route that will have descendant routes */}
             <Route path="/signup" element={<SignUp />} />
-            <Route path="/cart" element={<Cart />} />
+           
             <Route
               path="/"
               element={
