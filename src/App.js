@@ -11,6 +11,7 @@ import Footer from "./components/footer/Footer.jsx";
 import Header from "./components/Hero/Header.jsx";
 import Navbar from "./components/navbar/Navbar";
 import Cart from "./components/cart/Cart.jsx";
+import ProductPage from "./components/pages/ProductPage.jsx";
 
 const App = () => {
   const [isShowCart, setIsShowCart] = useState(false);
@@ -32,6 +33,7 @@ const App = () => {
   return (
     <>
       <section className="bg-[#333]">
+       
         <Router>
           <Navbar cart={cart} setIsShowCart={setIsShowCart} />
           <Header />
@@ -46,6 +48,7 @@ const App = () => {
             <Route path="/contact" element={<Contact />} />
             {/* Define a route that will have descendant routes */}
             <Route path="/signup" element={<SignUp />} />
+           
             <Route
               path="/"
               element={

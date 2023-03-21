@@ -1,8 +1,9 @@
 import React from 'react'
 
 function ProductPage() {
+
   return (
-    <div>ProductPage</div>
+    <div id='product-page' className='text-white text-6xl container'>ProductPage</div>
   )
 }
 
