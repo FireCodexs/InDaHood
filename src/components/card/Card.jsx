@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 
 
-const Card = ({product, handleClick}) => {
+const Card = ({product, handleAddToCart }) => {
     const { id, name, price, image, hoverImage, sizes, category, tags} = product;
     const [isHovered, setIsHovered] = useState(false);
     const discount = parseFloat((price * 1.1).toFixed(2));
@@ -16,10 +16,10 @@ const Card = ({product, handleClick}) => {
                         alt={name}
                         />
             {/* Top Buttons */}
-            <div className="p-5 flex flex-col gap-3">
+            <div className="p-6 flex flex-col gap-3">
                 <div className="flex items-center gap-2">
-                    <span className='badge px-3 py-1 rounded-full text-xs bg-green-100'>In Stock</span>
-                    <span className="badge px-3 py-1 rounded-full text-xs bg-red-100">Not Official Store</span>
+                    <span className='badge px-3 py-1 rounded-full text-xs bg-green-500'>In Stock</span>
+                    <span className="badge px-3 py-1 rounded-full text-xs bg-red-400">Not Official Store</span>
                 </div>
 
                 {/* Title */}
@@ -46,10 +46,9 @@ const Card = ({product, handleClick}) => {
 
                 </div>
                 {/* AddtoCart Button */}
-                <div className="mt-3 flex gap-2">
-                    <button 
-                    className="px-6 py-2 bg-yellow-500/80 hover:bg-yellow-500/90 rounded-md text-white font-medium tracking-wider transition"
-                    onClick={() =>handleClick(product)}
+                <div className="flex gap-2">
+                    <button className="px-6 py-2 bg-yellow-500/80 hover:bg-yellow-500/90 rounded-md text-white font-medium tracking-wider transition"
+                    onClick={()=> handleAddToCart(product)}
                     >
                         Add to Cart
                     </button>
@@ -59,7 +58,7 @@ const Card = ({product, handleClick}) => {
                         </svg>
                     </button>
                     <button className='flex-grow flex justify-center items-center bg-gray-300/60 hover:bg-gray-300/80 transition rounded-md'>
-                        <svg clipRule="evenodd" fillRule="evenodd" strokeLinejoin="round" strokeMiterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <svg clipRule="evenodd"  width="24" height="24" fillRule="evenodd" strokeLinejoin="round" strokeMiterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path d="m17.5 11c2.484 0 4.5 2.016 4.5 4.5s-2.016 4.5-4.5 4.5-4.5-2.016-4.5-4.5 2.016-4.5 4.5-4.5zm-5.346 6.999c-.052.001-.104.001-.156.001-4.078 0-7.742-3.093-9.854-6.483-.096-.159-.144-.338-.144-.517s.049-.358.145-.517c2.111-3.39 5.775-6.483 9.853-6.483 4.143 0 7.796 3.09 9.864 6.493.092.156.138.332.138.507s-.046.351-.138.507l-.008.013c-1.079-1.18-2.631-1.92-4.354-1.92-.58 0-1.141.084-1.671.24-.498-1.643-2.025-2.84-3.829-2.84-2.208 0-4 1.792-4 4 0 2.08 1.591 3.792 3.622 3.982-.014.171-.022.343-.022.518 0 .893.199 1.74.554 2.499zm3.071-2.023 1.442 1.285c.095.085.215.127.333.127.136 0 .271-.055.37-.162l2.441-2.669c.088-.096.131-.217.131-.336 0-.274-.221-.499-.5-.499-.136 0-.271.055-.37.162l-2.108 2.304-1.073-.956c-.096-.085-.214-.127-.333-.127-.277 0-.5.224-.5.499 0 .137.056.273.167.372zm-3.277-2.477c-1.356-.027-2.448-1.136-2.448-2.499 0-1.38 1.12-2.5 2.5-2.5 1.193 0 2.192.837 2.44 1.955-1.143.696-2.031 1.768-2.492 3.044z" fillRule="nonzero"/>
                         </svg>
                     </button>

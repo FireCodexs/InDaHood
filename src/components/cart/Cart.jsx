@@ -1,79 +1,50 @@
 import React from "react";
-import {AiOutlineShoppingCart} from 'react-icons/ai';
-import { useState } from 'react';
+import { AiOutlinePlusSquare , AiOutlineMinusSquare } from "react-icons/ai";
 
-export default function Modal() {
-  const [showModal, setShowModal] = useState(false);
+const Cart = ({setIsShowCart, cart, handleAddToCart}) => {
+  const total = (arr) => {
+    return arr.reduce((cal,item)=> {
+      return cal + item.price * item.amount;
+    }, 0);
+  };
+
+
   return (
-    <>
-      <button 
-        className="bg-pink-500 text-white active:bg-pink-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-        type="button"
-        onClick={() => setShowModal(true)}
+    <div 
+    className="z-30 fixed inset-0 bg-[rbga(0,0,0,0.7)]"
+    onClick={() => setIsShowCart(false)}
+    >
+      <div
+      className="bg-white w-[350px] h-full absolute right-0 overflow-y-scroll" 
+      onClick={(e)=>e.stopPropagation()}
       >
-       <AiOutlineShoppingCart size={25}/>
-      </button>
-      {showModal ? (
-        <>
-         <div className="w-full h-full bg-black dark:bg-gray-900 bg-opacity-90 top-0 overflow-y-auto overflow-x-hidden fixed sticky-0" id="chec-div">
-          <div className="w-full absolute z-10 right-0 h-full overflow-x-hidden transform translate-x-0 transition ease-in-out duration-700" id="checkout">
-            <div className="flex items-end lg:flex-row flex-col justify-end" id="cart">
-              <div className="lg:w-1/2 md:w-8/12 w-full lg:px-8 lg:py-14 md:px-6 px-4 md:py-8 py-4 bg-white dark:bg-gray-800 overflow-y-hidden overflow-x-hidden lg:h-screen h-auto" id="scroll">
-                <div className="flex items-center text-gray-500 hover:text-gray-600 dark:text-white cursor-pointer" onclick="checkoutHandler(false)">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-chevron-left" width="16" height="16" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                    <polyline points="15 6 9 12 15 18" />
-                  </svg>
-                  <button classNameName="text-sm pl-2 leading-none dark:hover:text-gray-200"  onClick={() => setShowModal(false)}>
-                  <p>Back</p>
-                  </button>
-                </div>
-                <p className="lg:text-4xl text-3xl font-black leading-10 text-gray-800 dark:text-white pt-3">Bag</p>
-                <div className="md:flex items-strech py-8 md:py-10 lg:py-8 border-t border-gray-50">
-                  <div className="md:w-4/12 2xl:w-1/4 w-full">
-                    <img src="https://i.ibb.co/SX762kX/Rectangle-36-1.png" alt="Black Leather Bag" className="h-full object-center object-cover md:block hidden" />
-                    <img src="https://i.ibb.co/g9xsdCM/Rectangle-37.pngg" alt="Black Leather Bag" className="md:hidden w-full h-full object-center object-cover" />
-                  </div>
-                  <div className="md:pl-3 md:w-8/12 2xl:w-3/4 flex flex-col justify-center">
-
-                    <div className="flex items-center justify-between w-full pt-1">
-                      <p className="text-base font-black leading-none text-gray-800 dark:text-white">North wolf bag</p>
-                    </div>
-                    <div className="flex items-center justify-between pt-5">
-                      <div className="flex itemms-center">
-                      <p className="text-xs leading-3 underline text-red-500 pl-5 cursor-pointer">Remove</p>
-                      </div>
-                      <p className="text-base font-black leading-none text-gray-800 dark:text-white">,000</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="lg:w-96 md:w-8/12 w-full bg-gray-100 dark:bg-gray-900 h-full">
-                <div className="flex flex-col lg:h-screen h-auto lg:px-8 md:px-7 px-4 lg:py-20 md:py-10 py-6 justify-between overflow-y-auto">
-                  <div>
-                    <p className="lg:text-4xl text-3xl font-black leading-9 text-gray-800 dark:text-white">Summary</p>
-                    <div className="flex items-center justify-between pt-16">
-                      <p className="text-base leading-none text-gray-800 dark:text-white">Subtotal</p>
-                      <p className="text-base leading-none text-gray-800 dark:text-white">,000</p>
-                    </div>
-                    <div className="flex items-center justify-between pt-5">
-                      <p className="text-base leading-none text-gray-800 dark:text-white"></p>
-                    </div>
-                  </div>
-                  <div>
-                    <div className="flex items-center pb-6 justify-between lg:pt-5 pt-20">
-                      <p className="text-2xl leading-normal text-gray-800 dark:text-white">Total</p>
-                      <p className="text-2xl font-bold leading-normal text-right text-gray-800 dark:text-white">,240</p>
-                    </div>
-                    <button onclick="checkoutHandler1(true)" className="text-base leading-none w-full py-5 bg-gray-800 border-gray-800 border focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 text-white dark:hover:bg-gray-700">Checkout</button>
-                  </div>
-                </div>
+        <h1 className="bg-red-400 py-4 text-center text-white">Cart</h1>
+        <div className="flex flex-col items-center px-2 py-4">
+          {cart.map(item=> (
+            <div key={item.id} className="text-center border-b-[3px] w-full mb-2 flex flex-col items-center">
+              <img
+              className="w-34 h-36"
+              src={item.image}
+              alt={item.name}
+              />
+              <p className="text-red-700 font-bold">Qty: {item.amount}</p>
+              <h3 className="text-[0.8rem]">{item.name}</h3>
+              <div className="flex items-center my-2">
+                <button>
+                  <AiOutlineMinusSquare className="text-[25px] text-gray-500"/>
+                </button>
+                <p className="text-red-600 mx-2">£{item.price}</p>
+                <button onClick={() => handleAddToCart(item)}>
+                  <AiOutlinePlusSquare className="text-[25px] text-gray-500"/>
+                </button>
               </div>
             </div>
-          </div>
+          ))}
+          <p className="text-gray-600">Total: £{total(cart)}</p>
         </div>
-        </>
-      ) : null}
-    </>
-  );
+      </div>
+    </div>
+  )
 }
+
+export default Cart;
