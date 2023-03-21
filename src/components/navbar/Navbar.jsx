@@ -62,7 +62,7 @@ const Navbar = ({setIsShowCart, cart}) => {
                     <div className="relative" onClick={() => setIsShowCart(true)}>
                     <AiOutlineShoppingCart/>
                     {cart.length > 0 && (
-                      <span className="bg-red-600 text-white w-5 h-5 rounded-full absolute -top-4 left-4 align-center leading-2">
+                      <span className="text-white w-5 h-5 rounded-full absolute -top-5 left-4 text-center leading-2">
                         {cart.length}
                       </span>
                     )}
