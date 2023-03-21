@@ -10,6 +10,7 @@ import Card from "./components/card/Card";
 import products from "./datasource.json";
 import Wrapper from "./components/wrapper/Wrapper";
 import HeroBanner from "./components/Hero/HeroBanner.jsx";
+import Footer from "./components/footer/Footer.jsx";
 
 function App() {
   return (
@@ -53,7 +54,10 @@ function App() {
               }
             />
           </Routes>
+        
         </Router>
+        <Footer/>
+
       </section>
     </>
   );
