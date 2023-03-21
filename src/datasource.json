@@ -1,0 +1,254 @@
+
+[
+    {
+    "id": 1,
+    "name": "Striped Shirt",
+    "price": 29.99,
+    "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQST3bLlvhd5MPL8RS7bXB8bZW8NqBdSha3OBFEm3joe5yhNcIZYSIA-ChO25kUmVgtwgYZNEIFLCaudUhF9wetbmhpTg4SaJCINIUosKIUBOqF7QI&usqp=CAE",
+    "hoverImage": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSvLCHAFY7fJEVE92i21J4aHKkBMh4EPMC18fMNl1YhnQW1BOw-EmAHEvW5Bx_REDKr2wY0lJzH4eTG4LSwXv2tBCkK8klNBqQ1KM_JzUjYDO839AffsfldfvzZsuFv&usqp=CAE",
+    "sizes": ["XS", "S", "M"],
+    "category": "Shirts",
+    "tags": ["Striped", "Casual", "Streetwear"]
+    },
+    {
+    "id": 2,
+    "name": "Ripped Jeans",
+    "price": 49.99,
+    "hoverImage": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSJmJQRddm7x3lVW_Q_k61rYUjtjbl2PczbB6APQjrmtsIBp-LZSEC4tvBW239TwHovEOOJ7c3ymHycyotCb1NytXlVbQk7N1wt8OhkM-UWN1r9_m8&usqp=CAE",
+    "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTO_kwXnUfFoEWnZmoErQSJ6CmXMuzmART_GPFxSWGsk_-1kY5OeO0fksZQEjqO63LJFXtY_0TPWR-YHhAqS9VuNCC-vQaFB79ozhFXpSFPCYxfkiI&usqp=CAE",
+    "sizes": ["XS", "S", "M"],
+    "category": "Jeans",
+    "tags": ["Ripped", "Distressed", "Streetwear"]
+    },
+    {
+    "id": 3,
+    "name": "Graphic Tee",
+    "price": 24.99,
+    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSDlmFqJWnUh-TZrKYt-xpwSekkllBayMZqkgu_kaXPWsuYYkmKcssMY0-HtAQ9ILLqAwH5UK2wXHNZUjwpa0qwwb6zmdqRO1mxhPtN&usqp=CAE",
+    "hoverImage": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRwdhLJroJ0czOZ5bsWFU2Vu9WbAW8fb93Jko-n5NAd5QHRrbWzaRpdBxQQxvZshSHnsvHe3EjB8jTEKeH5pPPd4mlv1SkHDi8YxjkwmUFSRnJWRw&usqp=CAE",
+    "sizes": ["XS", "S", "M"],
+    "category": "T-Shirts",
+    "tags": ["Graphic", "Printed", "Streetwear"]
+    },
+    {
+    "id": 4,
+    "name": "Camouflage Jacket",
+    "price": 69.99,
+    "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQfuSzlr8-QUuudzaawCj_tplaexN56_wCDS2rmofuUki4rFAlVUZ0HU6pXawJ1978WIuesM4uLXG5nXa4m1rDmIq8XOumsQgo5UAahNPvhPKZ2b9w&usqp=CAE",
+    "hoverImage": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS6SOIpdvUGCPP9Nap00DA4e-oJGbmTLI9nxglxxmzVnn3dJKq3s2JJJ0qx1scMoZ8jgAkzBLxWgYhsWEbQakakqDNxIxUg6TTs8b-Oi-CK5xSZZOslhnzzqYWInFQ&usqp=CAE",
+    "sizes": ["XS", "S", "M"],
+    "category": "Jackets",
+    "tags": ["Camouflage", "Military", "Streetwear"]
+    },
+    {
+    "id": 5,
+    "name": "Denim Jacket",
+    "price": 79.99,
+    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTB7QWtScRo2INliCMjP2RE3hA6bUibY206UZYpsb_OmGI3olwMqAnnK1zeq1sfgUKsCEE3icVJMjASjqViih5o39dGSWZxba-nuMiPz8q1sNV2hIi1U-9EEqrgiSyM&usqp=CAE",
+    "hoverImage": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSueK9o0wQ8KpKr3wum0mukV6qmKDTptlPgQ_TmtA5UOMQqola0pzoO0o7220aIMKW8X-dLO0pkrSbbTC29l_UC8-VOjLUnMEv7vpP_TSNfHEGPC-sMLQEZETgzC-d2&usqp=CAE",
+    "sizes": ["XS", "S", "M"],
+    "category": "Jackets",
+    "tags": ["Denim", "Vintage", "Streetwear"]
+    },
+    {
+    "id": 6,
+    "name": "Cargo Pants",
+    "price": 59.99,
+    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTxTO0ROx98-oIV8FVBSURK9sL7ep_5cQfr4FgxP03OR5k14fC8---LdWRuPQT6z-knnywTGyDePE-Cd9mi_SQE6ePtCimOql92995jebpklf2-vA&usqp=CAE",
+    "hoverImage": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT9MdVZOFrZ--gZqhbtk6JQrtm3jMXbe4o37PydhD7_zAZMD2UCQlGLjSL0pjiMq4Csu2j7BsF_OjFMG3ahXhdcpRWXgcoxLGgQO3w&usqp=CAE",
+    "sizes": ["XS", "S", "M"],
+    "category": "Pants",
+    "tags": ["Cargo", "Utility", "Streetwear"]
+    },
+    {
+    "id": 7,
+    "name": "Hoodie",
+    "price": 49.99,
+    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRJVpIE2UPClvVqtiRjeHJewRO8uM-fuxRal6y1HMsNc56D0it1KEb4rfXJosW-xjnfsp_ib-wh7BuzRlEFscCPAdaP6slr71fmJ83Vd6CrZV54nkA&usqp=CAE",
+    "hoverImage": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTZPym6VEqQZNxhADKu1XHaIov2KNasxEN0JG7tCb2omxZ-SkCd6u04EY8cFKOQFKvEFT9pT2SB2mB7jzTFalOGZGJ6uEqP1B6mhuor3MD5jjftzU4&usqp=CAE",
+    "sizes": ["XS", "S", "M"],
+    "category": "Sweatshirts",
+    "tags": ["Hoodie", "Pullover", "Streetwear"]
+    },
+    {
+    "id": 8,
+    "name": "Retro Sneakers",
+    "price": 89.99,
+    "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTeBsW8J4FgaXKPJxyJY3OrOY1NN-iEEEoV3NSekIIhLPuDN6tVSjjbJfki-ELIKuI63phKyEZ13VYZdRFGe_8Bx1S8TkO1DtPVfx4TyYRB9PsvPBXvYLi6lKPxC3s&usqp=CAE",
+    "hoverImage": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRsZpHGElZ5m-l5or5j9_gxy3DQl9u0GBhxOFMZCeSfNH00dG3mB4mJnigj_u5YmUcnK9C6Co0mqahSNCDNDnJzkkiXLQ7YsIpHfb6dyI7uaBu1c9h_lAk3PURyk9Y&usqp=CAE",
+    "sizes": ["US 6", "US 7", "US 8", "US 9", "US 10", "US 11"],
+    "category": "Shoes",
+    "tags": ["Sneakers", "Retro", "Streetwear"]
+    },
+    {
+    "id": 9,
+    "name": "Beanie",
+    "price": 19.99,
+    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQKYNoP1mLj4NDWLu-vgg6kqiFF4UNDbpLrP2VXaEMw4jIxWJqSGrAGnVm4T57m9gPkRgeoAlSyBCUZ0Kg9FasE4N8LGERRDvT32DAUwV5coqGaiwlWFKJ_rhEUvzM&usqp=CAE",
+    "hoverImage": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTuC6zER2YU0IkAfjx3hsVEG-v19Mc2E6kUbaDXSSQ6QDJYLQFownBGxRhLYCzQfWxp_EKMM90-ws_sdjy0Q2sju23qllGgdkA-rrQCQ1ccZmAd-IbG74XG-sv7qOz2ng&usqp=CAE",
+    "sizes": ["One Size"],
+    "category": "Hats",
+    "tags": ["Beanie", "Winter", "Streetwear"]
+    },
+    {
+    "id": 10,
+    "name": "Graphic Sweatshirt",
+    "price": 39.99,
+    "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRDLuReSjS0gCh1NKg2zc9aWV4qtXa8idt9QPAPfUQ8ZSg6KTVxdbdafE44OcW2o2O65uko-CgBmykiVjsZYrsuqBL-PfY-PGxlh7W5tdfKlWwvIZdhcGq5UXNWXBfa&usqp=CAE",
+    "hoverImage": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRbb3DrDMxpmv5B-oTGOEi6cTM0rVxcJ7nqUsG-GfyyJNXjGBd0y5IuQCAniDZcMy6BEBf41kMqGW5Km1L_2EjHfYFWR2qKt63w79VhCkot1Q6JDIQEgUVSqD-IBjQn&usqp=CAE",
+    "sizes": ["XS", "S", "M"],
+    "category": "Sweatshirts",
+    "tags": ["Graphic", "Printed", "Streetwear"]
+    },
+    {
+    "id": 11,
+    "name": "Track Pants",
+    "price": 44.99,
+    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT-TMWzi9JjfGTCwW3g_K0KLwiu7mxbSn0xXZGNRwNx9s-0Yo1qHypzbZJWXmJHOovnYN1yMcSWLszLhjdgwPoNTKH8KK_kXFmwQmYlsmMgEsaf_w&usqp=CAE",
+    "hoverImage": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ7PGI4YJXR3FNyXsMzWO3K_WOsaAIxoVTTvGSM_APiudQBkXifVkhRwV8Yvc8gXAHGcmUEurbk9YPeVPHsBjNZUdBv-ccxXxbua6gONG2WLfJV1YyFv7Mjs8ODePEq&usqp=CAE",
+    "sizes": ["XS", "S", "M"],
+    "category": "Pants",
+    "tags": ["Track", "Athletic", "Streetwear"]
+    },
+    {
+    "id": 12,
+    "name": "Bomber Jacket",
+    "price": 69.99,
+    "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQveGJijfgI5deN9g30Sr9IHoIk12a7gJr9FSc9BkV6bB2VGzzn8DvmbRGKqP0YiKWDf5XC3b4o1EXgfD85VgvlXKUDe6f61q2bstdcli_Pj6UlrH_EUWKllv1b7Cw&usqp=CAE",
+    "hoverImage": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSZjmQ9aGVLCZXcbjLRKqCUIXOms2eBwGFA3LdOrt-qMGaPBXXNc4SsSeQ7F2YrGGmF8GhyoVnn-mAMW56yTcCcN--Hh7Mu1m0mE2w5oHiYsYjTTuGB10GJm0wlWBQT&usqp=CAE",
+    "sizes": ["L", "XL", "XXL"],
+    "category": "Jackets",
+    "tags": ["Bomber", "Flight", "Streetwear"]
+    },
+    {
+    "id": 13,
+    "name": "Cropped Hoodie",
+    "price": 39.99,
+    "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT0Usq97Q_6J_HM-Cz7m7YqbixU6iv0JAxmM64xKBINrwLLhS4ETEUhCfkn6R8kCXOhIhfpN7qA70M3WvHl5PvxN4CXBWhExTvlTb23hOyFj70nPlA&usqp=CAE",
+    "hoverImage": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTeXwTeV6QjtyCoqYxRgkEI89EW8RYaopz0PnynGfrnk0-LGPo7WHrQ6QXAHTpx2ViCKg2wdd6ybgZmCuBjAh4voYIfvgCQiajyxxVIFfODE86dQ9YJFb_hO4uSNakE&usqp=CAE",
+    "sizes": ["L", "XL", "XXL"],
+    "category": "Sweatshirts",
+    "tags": ["Cropped", "Hoodie", "Streetwear"]
+    },
+    {
+    "id": 14,
+    "name": "Cargo Pants",
+    "price": 59.99,
+    "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRuQVqeqYTJFH9m8HIAWOSMkchkM3eKC8wdN1w2d8046eWDyz_EKnsCwnK4N9OkOmrffjaE4llAB1S5N77GJJD0GlWGVrT_GiCkncpKswzNUN54FYJco_msPrjW-_4Y&usqp=CAE",
+    "hoverImage": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRhZ20BOZ0dEjoawWNi4ae17z7ZHgvh4Hcb0CcAUgGSgK8f_GRsQry73g5cgWCt9fhNILiWbMhN6FUFrdER-F6yFqoN-wm0goThIM6HXrOSaHWvSHZejU3w7mDcwKUz&usqp=CAE",
+    "sizes": ["L", "XL", "XXL"],
+    "category": "Pants",
+    "tags": ["Cargo", "Utility", "Streetwear"]
+    },
+    {
+    "id": 15,
+    "name": "Oversized T-Shirt",
+    "price": 29.99,
+    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRxwfWXedSzFczeG4_NGOt5XeIUSzU8xfP9c1Fk_76fUSkoR_avmRgvN1W4MrFt1jZKqt3DtXjGyUYpBr5V9RYwBUP2BMkqUql3w40Y2T-h7B_lm4NCxzBpYDAeQVsw&usqp=CAE",
+    "hoverImage": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT2tFHbqG5jYrw9oK4dxHZWuZwdzaMq377ujfTgMl-U5bPEAWlEJ_z-5aj1g8-bwdSFhKYI5a_z36ahACPsyZwkS5HXXiRpcO9HKFoakqsqKzUuqQY&usqp=CAE",
+    "sizes": ["L", "XL", "XXL"],
+    "category": "T-Shirts",
+    "tags": ["Oversized", "Boxy", "Streetwear"]
+    },
+    {
+    "id": 16,
+    "name": "Camo Joggers",
+    "price": 49.99,
+    "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRRySI3pJkizPw5--xanGREmIo4D4r_9JVJ_jmEM2GrZfEFv7Q2IyjTdyMrCLthuG2HSGgr1sDkRYBul9KAKmyYRmXe4LOpbk5tcDZCLVCer02nJY9NG9XBw9cLrq1E&usqp=CAE",
+    "hoverImage": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTNa1o0wOtKKwrMqSEC3Yn_yPPr7jGk3yIi1EVD1hNHL-IYBLOmORCa_Is2o9IefFfTxikjMgK2q1SCu6AZnEBsxnT6PO9SsG91DMbx6TSnBwXNJ12PVLO_UZ17MwzG&usqp=CAE",
+    "sizes": ["L", "XL", "XXL"],
+    "category": "Pants",
+    "tags": ["Camouflage", "Joggers", "Streetwear"]
+    },
+    {
+    "id": 17,
+    "name": "Hooded Sweatshirt",
+    "price": 39.99,
+    "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQVglXssHQqJrSDsb0iyjAqgeQrek29OkfEv4S9Fnpgj5r5m8SYIYmP3ZLdKRxQwwol6szTmafOyEOAq5f7CWZhu6__McSQUtgy5dPLBWQ62X98yw&usqp=CAE",
+    "hoverImage": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTwHaDLQV3ATEG6h7YttTKso96uEnPV9waf1o-eRKDrbjRO16xo-sJgXVv3ysqVTF_M1QiipMSThFZhEmF384lgIaqh1lwWClO4kt6-8GpJ4aziFGRfV5MVeF941BY&usqp=CAE",
+    "sizes": ["L", "XL", "XXL"],
+    "category": "Sweatshirts",
+    "tags": ["Hooded", "Comfortable", "Streetwear"]
+    },
+    {
+    "id": 18,
+    "name": "Cargo Pants",
+    "price": 54.99,
+    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSAD2NK5B0TzVx_Vvj6-UQSL9h0xXf7evP0zxxw59sVnYQJQ1Ha_HlGElfOoErKkPzuV_qdsONwVluVHdkCu8JYcXNt8Xx4LEJ7U9YZquasHorDRoz-y0ucAWEhepoV&usqp=CAE",
+    "hoverImage": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRd1ghoXGQoYBrDG4Qz4Hc9rlIiDo86dk3DJ3UAS-Pk6U5xk8wdBy-DGMUaC6QMnadaEJucxlMdBKYGfRcw9mT2-nxEAMrJpkBvgGLgW2WpumyTCQc&usqp=CAE",
+    "sizes": ["L", "XL", "XXL"],
+    "category": "Pants",
+    "tags": ["Cargo", "Utility", "Streetwear"]
+    },
+    {
+    "id": 19,
+    "name": "Bucket Hat",
+    "price": 19.99,
+    "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTRQp9SASInotGN1ePlkmbVf8IbzFv69HDjFVNBUqSFv3PsvSIMGfSe6Rv7wd2UFGR7mylcQFjyhrlywf_XqeNPtTbBttTk2u2h1Tw&usqp=CAE",
+    "hoverImage": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQWVaCQNAUU42Oc8Yr5kiXryTvXfmvTWBiP9zy-nBR-6zB0mdn4jHQAX_iVcm70eMbaS8XCCjldcbQV2O4CPWQ_Qui5CFnC-kqx4YK2CORxgeWd463qwuHrR1LS8q8&usqp=CAE",
+    "sizes": ["One Size"],
+    "category": "Hats",
+    "tags": ["Bucket", "Summer", "Streetwear"]
+    },
+    {
+    "id": 20,
+    "name": "Denim Jacket",
+    "price": 59.99,
+    "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSveasazl7VWqq6r7xwBkoQggZu4SNhHOOdmnqDljdNkUhTuNbXANQCZsyH2ti3VUzgudlkYClE6aukYS2UdECshk9_yhDXvLydlJHZS40CYhbbH4MJW_N6_ibVXGg-&usqp=CAE",
+    "hoverImage": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTDW6tUgZ00p5b8CxxLInR4f4Lj-0vb0CnVY3l2OMacDjM89sX9-DDDm216OTr1VpJ6WG-fKL1g0YSDcmVrB1rs_XQ8PFyQ0gTQit7VJxFMNjOJKYc&usqp=CAE",
+    "sizes": ["L", "XL", "XXL"],
+    "category": "Jackets",
+    "tags": ["Denim", "Classic", "Streetwear"]
+    },
+    {
+    "id": 21,
+    "name": "Track Pants",
+    "price": 44.99,
+    "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTXk5m4JzDFlCevvt5j7lJmQ2hGaoiscT9FNapQo6aZsv5GTqZMTshLLPnvw3OmyuF2NFWBbqaYn0W-0xHAAhCGjv3kSs25_uNzX6j_0ef7KYITQgnStaPse2Baa0s&usqp=CAE",
+    "hoverImage": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR7F4lE99ZvwLzHHCppnPvkLFzPcq-iijbHJgDsKEISdQfsIWNthKpdNBAHTfbWlj4O7d5wshR-PaZnWKUDf88dIM20GGC-i3l9wM67&usqp=CAE",
+    "sizes": ["XS", "S"],
+    "category": "Pants",
+    "tags": ["Track", "Athletic", "Streetwear"]
+    },
+    {
+    "id": 22,
+    "name": "Oversized T-Shirt",
+    "price": 34.99,
+    "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQwV7nPlOjU7wIS-ot3sHQsVS1zkzFCydjV2A9EuMBAyCLAWeUlyaP_ZuwjZLTI8s67lZpgsX6gIMb1-VTvOq9_ONJcg6l_AvqkELTh4WQmGrljs7SsPKPDTzfR1IL8&usqp=CAE",
+    "hoverImage": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRfIKe_7_E_J9UPutwU-75724m-NHpZIsQkk_EGxEQliZirGbC_dBsqNvdLZWjfc5hpdy59BT2ePP3JbjEaFl0UU4EHkdatPaG69T-TR19OnOXqVabsst6eJK_iuVs&usqp=CAE",
+    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "category": "T-Shirts",
+    "tags": ["Oversized", "Comfortable", "Streetwear"]
+    },
+    {
+    "id": 23,
+    "name": "Beanie Hat",
+    "price": 14.99,
+    "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSc4_3j0qRqAi59r2yvD7FfaKQV4QWJSB6B9wIS-kVoUPaWZVL1pkI45u4i9iHxvpnNMWlQK8Zat9o_GrrheEl1Negibk3XuhxeWr1tS8ZnaK5eQg&usqp=CAE",
+    "hoverImage": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSEhxc4bN_0v0IJb0TZPBaEVOcJdcn8m_ZBHEWahG-CuoSm0hUFtNUSJ2NfLVki0LaLMHd65ingwNYGJ5s3Vl8rmizhm7CGOXAB1o0DMseZh0CzHLbYQ4KxU94kps1m&usqp=CAE",
+    "sizes": ["One Size"],
+    "category": "Hats",
+    "tags": ["Beanie", "Winter", "Streetwear"]
+    },
+    {
+    "id": 24,
+    "name": "Leather Jacket",
+    "price": 149.99,
+    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT9AMPTXQjAgORDvfWP1V61JC8a3IoEhn7FbLuL8IWRDYB9zDteJr7G_COhdReqqdDwApbQMCGCtt5aoAKdZ0Sn3VbzMNnfZvZ3SRKoEsvncDpfcCLW2dE-zBQxgAc&usqp=CAE",
+    "hoverImage": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS6G-aftVDbA-ttWk4tGDqDqjbt-nHKdGQLn2wDaeSVf56-bXMFvXQy4LvSpNro_olnjl3NtaTDzeu2XUG_DCdhDeMluTQlNifA1rFyjujx2R_6LUk&usqp=CAE",
+    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "category": "Jackets",
+    "tags": ["Leather", "Classic", "Streetwear"]
+    },
+    {
+    "id": 25,
+    "name": "Printed Hoodie",
+    "price": 49.99,
+    "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQY7YRft5ilEbzh-ozFARY30zFCKHBQh1I3b79st6ffBLcvBBSUP8HVrOW6-AVihZrlH0GS2wVfOdHHOYP4owXi_WhupjbSmDlDGEYHNTdSICdGm_lP7_D8lojjGsbT&usqp=CAE",
+    "hoverImage": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTr9i42U3rxQA_4PxprDVyjzhCyBeM_q7mH7_uIJlonrYwAKIACqu0Tg_XTSyMo09tunFYmhgcEdojbCHmCxUeuA0ZfT7wq1jgAKvC-z_zOa05tww&usqp=CAE",
+    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "category": "Sweatshirts",
+    "tags": ["Printed", "Graphic", "Streetwear"]
+    }
+]
+
