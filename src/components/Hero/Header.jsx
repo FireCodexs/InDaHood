@@ -1,5 +1,4 @@
 import {React, useState} from 'react';
-import Cart from '../cart/Cart';
 import {Link} from 'react-scroll';
 
 function Header() {
