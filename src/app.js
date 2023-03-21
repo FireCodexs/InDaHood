@@ -7,6 +7,7 @@ import Women from "./components/pages/Women.jsx";
 import Card from "./components/card/Card";
 import products from "./datasource.json";
 import Wrapper from "./components/wrapper/Wrapper";
+import Footer from "./components/footer/Footer.jsx";
 import Header from "./components/Hero/Header.jsx";
 import Navbar from "./components/navbar/Navbar";
 import Cart from "./components/cart/Cart.jsx";
@@ -76,6 +77,7 @@ const App = () => {
             />
           </Routes>
         </Router>
+        <Footer />
       </section>
     </>
   );
