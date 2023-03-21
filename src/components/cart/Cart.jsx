@@ -1,7 +1,7 @@
 import React from "react";
 import { AiOutlinePlusSquare , AiOutlineMinusSquare } from "react-icons/ai";
 
-const Cart = ({setIsShowCart, cart, handleAddToCart}) => {
+const Cart = ({setIsShowCart, cart, handleAddToCart,handleRemoveFromCart}) => {
   const total = (arr) => {
     return arr.reduce((cal,item)=> {
       return cal + item.price * item.amount;
@@ -30,7 +30,7 @@ const Cart = ({setIsShowCart, cart, handleAddToCart}) => {
               <p className="text-red-700 font-bold">Qty: {item.amount}</p>
               <h3 className="text-[0.8rem]">{item.name}</h3>
               <div className="flex items-center my-2">
-                <button>
+                <button onClick={()=> handleRemoveFromCart(item.id)}>
                   <AiOutlineMinusSquare className="text-[25px] text-gray-500"/>
                 </button>
                 <p className="text-red-600 mx-2">£{item.price}</p>
