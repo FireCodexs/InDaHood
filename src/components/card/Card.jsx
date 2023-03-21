@@ -2,12 +2,13 @@ import React, {useState} from 'react';
 
 
 const Card = ({product}) => {
+  
     const { id, name, price, image, hoverImage, sizes, category, tags} = product;
     const [isHovered, setIsHovered] = useState(false);
     const discount = parseFloat((price * 1.1).toFixed(2));
 
   return (   
-        <div class="bg-white text-gray-700 w-72 min-h-[10rem] shadow-lg rounded-md overflow-hidden">
+        <div id='cards' class="bg-white text-gray-700 w-72 min-h-[10rem] shadow-lg rounded-md overflow-hidden">
                         <img
                         className='w-full h-72 object-cover'
                         src={isHovered ? hoverImage : image}
