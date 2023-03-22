@@ -1,4 +1,4 @@
-import { React, useState, Component } from "react";
+import { React, useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Men from "./components/pages/Men.jsx";
 import Contact from "./components/pages/Contact.jsx";
