@@ -94,6 +94,4 @@ export default function Contact(){
 
  
     )
-} 
-{/*<div className="h-screen w-full bg-cover bg-gradient-to-r from-violet-500 to-fuchsia-500">*/};
-  {/*<div className="h-screen w-full bg-cover bg-gradient-to-r from-violet-500 to-fuchsia-500">*/};
+}

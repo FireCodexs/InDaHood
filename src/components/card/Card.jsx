@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 
 
 const Card = ({product, handleAddToCart }) => {
-    const { id, name, price, image, hoverImage, sizes, category, tags} = product;
+    const { name, price, image, hoverImage } = product;
     const [isHovered, setIsHovered] = useState(false);
     const discount = parseFloat((price * 1.1).toFixed(2));
 
