@@ -33,25 +33,36 @@ const App = () => {
     <>
       <section className="bg-[#333]">
         <Router>
-          <Navbar cart={cart} setIsShowCart={setIsShowCart} />
-          <Header />
+             <Navbar cart={cart} setIsShowCart={setIsShowCart} />
+          
+           
           {/* Wrap Route elements in a Routes component */}
-          <Routes>
-            {/* Define routes using the Route component to render different page components at different paths */}
-            {/* Define a default route that will render the Home component */}
-            <Route path="/women" element={<Women />} />
+       <Routes>
+          <Route path="/women" element={<Women />} />
             {/* <Route path="/" element={<Home />} /> */}
             <Route path="/men" element={<Men />} />
             {/* <Route path="/" element={<About />} /> */}
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/contact" element={<Contact />}  />
+        
+            {/* Define routes using the Route component to render different page components at different paths */}
+            {/* Define a default route that will render the Home component */}
+           
+               
+           
             {/* Define a route that will have descendant routes */}
-            <Route path="/signup" element={<SignUp />} />
             <Route
               path="/"
               element={
+                <div>
+                <Header />
+
                 <Wrapper>
+                     
                   {products.map((product) => (
-                    <Card
+                       
+                    
+
+                       <Card
                       handleAddToCart={handleAddToCart}
                       key={product.id}
                       product={product}
@@ -72,8 +83,11 @@ const App = () => {
                       setIsShowCart={setIsShowCart}
                     />
                   )}
-                </Wrapper>
+                </Wrapper> 
+                </div>
               }
+
+             
             />
           </Routes>
         </Router>
