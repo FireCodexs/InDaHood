@@ -11,8 +11,10 @@ const Card = ({product, handleAddToCart }) => {
         navigate('/product-page');
     }
 
-  return (   
-        <div id="cards" className="bg-white text-gray-700 w-72 min-h-[10rem] shadow-lg rounded-md overflow-hidden">
+  return (
+        <div id="cards" className="bg-white text-gray-700 w-72 min-h-[10rem]
+        shadow-lg rounded-md overflow-hidden
+        items-center">
                         <img
                         className='w-full h-72 object-cover'
                         src={isHovered ? hoverImage : image}

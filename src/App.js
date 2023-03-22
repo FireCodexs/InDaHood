@@ -30,13 +30,27 @@ const App = () => {
       return [...prev, { ...product, amount: 1 }];
     });
   };
+
+  const handleRemoveFromCart = (id) => {
+    setCart((prev) => {
+      return prev.reduce((cal, item) => {
+        if (item.id === id) {
+          if (item.amount === 1) return cal;
+
+          return [...cal, { ...item, amount: item.amount - 1 }];
+        }
+
+        return [...cal, { ...item }];
+      }, []);
+    });
+  };
+
   return (
     <>
       <section className="bg-[#333]">
        
         <Router>
           <Navbar cart={cart} setIsShowCart={setIsShowCart} />
-          <Header />
           {/* Wrap Route elements in a Routes component */}
           <Routes>
             {/* Define routes using the Route component to render different page components at different paths */}
@@ -52,30 +66,34 @@ const App = () => {
             <Route
               path="/"
               element={
-                <Wrapper>
-                  {products.map((product) => (
-                    <Card
-                      handleAddToCart={handleAddToCart}
-                      key={product.id}
-                      product={product}
-                      name={product.name}
-                      image={product.image}
-                      hoverImage={product.hoverImage}
-                      sizes={product.sizes}
-                      category={product.category}
-                      tags={product.tags}
-                      price={product.price}
-                      location={product.location}
-                    />
-                  ))}
-                  {isShowCart && (
-                    <Cart
-                      cart={cart}
-                      handleAddToCart={handleAddToCart}
-                      setIsShowCart={setIsShowCart}
-                    />
-                  )}
-                </Wrapper>
+                <div>
+                  <Header />
+                  <Wrapper>
+                    {products.map((product) => (
+                      <Card
+                        handleAddToCart={handleAddToCart}
+                        key={product.id}
+                        product={product}
+                        name={product.name}
+                        image={product.image}
+                        hoverImage={product.hoverImage}
+                        sizes={product.sizes}
+                        category={product.category}
+                        tags={product.tags}
+                        price={product.price}
+                        location={product.location}
+                      />
+                    ))}
+                    {isShowCart && (
+                      <Cart
+                        cart={cart}
+                        handleRemoveFromCart={handleRemoveFromCart}
+                        handleAddToCart={handleAddToCart}
+                        setIsShowCart={setIsShowCart}
+                      />
+                    )}
+                  </Wrapper>
+                </div>
               }
             />
           </Routes>
