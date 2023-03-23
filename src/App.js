@@ -10,6 +10,8 @@ import Footer from "./components/footer/Footer.jsx";
 import Header from "./components/Hero/Header.jsx";
 import Navbar from "./components/navbar/Navbar";
 import Cart from "./components/cart/Cart.jsx";
+import ProductPage from "./components/pages/ProductPage.jsx";
+import SignUp from "./components/pages/SignUp.jsx";
 
 const App = () => {
   const [isShowCart, setIsShowCart] = useState(false);
@@ -52,6 +54,8 @@ const App = () => {
             <Route path="/women" element={<Women />} />
             <Route path="/men" element={<Men />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/signup" element={<SignUp />} />
+            <Route path="/product-page/:id" element={<ProductPage />} />
             <Route
               path="/"
               element={
