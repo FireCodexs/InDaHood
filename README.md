@@ -1,24 +1,27 @@
-# Final Project
+# InDaHood
 
-## Application Requirements
+## Project Description
 
-You and your group will use everything you’ve learned to create a real-world client-side single-page application that you’ll be able to showcase to potential employers. The user story and acceptance criteria will depend on the project that you create, but your project must fulfill the following requirements:
+InDaHood is a responsive online webpage for street clothing. It is fully functioning grabbing items from a json file database and with the ability to add and remove from cart producing your total. There is a contact form section and links to github, instagram etc.  
 
-* Must use ReactJS.
+We built this using Tailwind and React and it's deployed on Netlify to practice the things we have learned in our studies.
 
-* Must use Node.
 
-* Must have both GET and POST routes for retrieving and adding new data.
+## Challenges
 
-* Must deploy this application using Netlify.
+We ran into some issues getting the cart working and some of the components some team members had built were not compatible with things others had done, so we had to do a lot of reworking, and working around these issues. We also had some inital issues with git and the work flow between us.
 
-* Must utilize at least two libraries, packages, or technologies that we haven't discussed.
+Overall it was a really good experience to work together to develop this.
 
-* Must have a polished front end/UI.
+## The Future
 
-* Must meet good quality coding standards (indentation, scoping, naming).
+?
 
-* Have a quality README (with unique name, description, technologies used, screenshot, and link to deployed application).
+## live site
+link
+screen shot
+
+## Authors
 
 ## Presentation Requirements
 
