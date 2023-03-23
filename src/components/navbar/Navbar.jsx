@@ -23,35 +23,35 @@ const Navbar = ({setIsShowCart, cart}) => {
               <div className="hidden md:block">
                 <div className="ml-10 flex items-center space-x-4">
                   <a
-                    href="www.google.com"
+                    href="/"
                     className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-lg font-medium"
                   >
                     Home
                   </a>
 
                   <a
-                    href="www.google.com"
+                    href="/women"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-lg text-lg font-medium"
                   >
                     Women
                   </a>
 
                   <a
-                    href="www.google.com"
+                    href="./men"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-lg text-lg font-medium"
                   >
                     Men
                   </a>
 
                   <a
-                    href="www.google.com"
+                    href="./wishlist"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-lg text-lg font-medium"
                   >
                     Wishlist
                   </a>
 
                   <a
-                    href="www.google.com"
+                    href="./contact"
                     className="flex items-center text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-lg text-lg font-medium"
                   >
                     <IoMdContact className="text-[24]"/>
@@ -131,35 +131,35 @@ const Navbar = ({setIsShowCart, cart}) => {
             <div className="md:hidden" id="mobile-menu">
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <a
-                  href="www.google.com"
+                  href="/"
                   className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Home
                 </a>
 
                 <a
-                  href="www.google.com"
+                  href="./women"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Women
                 </a>
 
                 <a
-                  href="www.google.com"
+                  href="./men"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Men
                 </a>
 
                 <a
-                  href="www.google.com"
+                  href="./wishlist"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Wishlist
                 </a>
 
                 <a
-                  href="www.google.com"
+                  href="./contact"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Contact
