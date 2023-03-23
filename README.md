@@ -15,7 +15,7 @@ Overall it was a really good experience to work together to develop this.
 
 ## The Future
 
-?
+In the future we would like to add a filter button to filter items by tag names, sizes and type.
 
 ## live site
 link
