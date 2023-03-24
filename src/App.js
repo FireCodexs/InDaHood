@@ -2,7 +2,7 @@ import { React, useState, Component } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Men from "./components/pages/Men.jsx";
 import Contact from "./components/pages/Contact.jsx";
-import SignUp from "./components/pages/SignUp";
+import Wishlist from "./components/pages/Wishlist";
 import Women from "./components/pages/Women.jsx";
 import Card from "./components/card/Card";
 import products from "./datasource.json";
@@ -11,8 +11,10 @@ import Footer from "./components/footer/Footer.jsx";
 import Header from "./components/Hero/Header.jsx";
 import Navbar from "./components/navbar/Navbar";
 import Cart from "./components/cart/Cart.jsx";
+import {GlobalProvider} from '../src/components/pages/context/GlobalState'
 
 const App = () => {
+  
   const [isShowCart, setIsShowCart] = useState(false);
   const [cart, setCart] = useState([]);
 
@@ -27,8 +29,9 @@ const App = () => {
       }
 
       return [...prev, { ...product, amount: 1 }];
-    });
-  };
+    })
+  }
+ 
   return (
     <>
       <section className="bg-[#333]">
@@ -43,6 +46,7 @@ const App = () => {
             <Route path="/men" element={<Men />} />
             {/* <Route path="/" element={<About />} /> */}
             <Route path="/contact" element={<Contact />}  />
+            <Route path="/wishlist" element={<Wishlist />}  />
         
             {/* Define routes using the Route component to render different page components at different paths */}
             {/* Define a default route that will render the Home component */}
@@ -57,7 +61,7 @@ const App = () => {
                 <Header />
 
                 <Wrapper>
-                     
+                     <GlobalProvider>
                   {products.map((product) => (
                        
                     
@@ -75,7 +79,7 @@ const App = () => {
                       price={product.price}
                       location={product.location}
                     />
-                  ))}
+                  ))}</GlobalProvider>
                   {isShowCart && (
                     <Cart
                       cart={cart}
@@ -83,17 +87,21 @@ const App = () => {
                       setIsShowCart={setIsShowCart}
                     />
                   )}
+                  
                 </Wrapper> 
                 </div>
               }
 
              
             />
+            
           </Routes>
         </Router>
         <Footer />
       </section>
+       
     </>
+   
   );
 };
 
