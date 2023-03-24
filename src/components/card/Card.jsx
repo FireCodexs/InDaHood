@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 
 const Card = ({product, handleAddToCart }) => {
     const {addItemToWishlist} = useContext(GlobalContext);
-    const { id, name, price, image, hoverImage, sizes, category, tags} = product;
+    const { id, name, price, image, hoverImage} = product;
 // import React, {useState} from 'react';
 
 
