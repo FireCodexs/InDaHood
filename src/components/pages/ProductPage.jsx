@@ -1,8 +1,12 @@
 import React from 'react';
-import products from '../../datasource.json'
+import products from '../../datasource.json';
+
+
 
 
 function ProductPage() {
+  
+ 
   //  let [productCard, setProductCard] = useState(productData)
 
   var currentURL = window.location.href
@@ -20,7 +24,8 @@ function ProductPage() {
   // console.log(item.name)
   // console.log(item.id)
 
-  return <div className='grid grid-cols-2 bg-white justify-center items-center pl-20'>
+  return  <div>  
+  <div className='grid grid-cols-2 bg-white justify-center items-center pl-20'>
 
 
 
@@ -63,7 +68,7 @@ function ProductPage() {
       </div>
 
 
-      <button type="button" className="inline-flex items-center justify-center rounded-md border-2 border-transparent bg-gray-900 bg-none px-12 py-3 text-center text-base font-bold text-white transition-all duration-200 ease-in-out focus:shadow hover:bg-gray-800">
+      <button  type="button" className="inline-flex items-center justify-center rounded-md border-2 border-transparent bg-gray-900 bg-none px-12 py-3 text-center text-base font-bold text-white transition-all duration-200 ease-in-out focus:shadow hover:bg-gray-800">
         Add to cart
       </button>
     </div>
@@ -76,7 +81,7 @@ function ProductPage() {
 
 
   </div>
-
+  </div>
 
 }
 
