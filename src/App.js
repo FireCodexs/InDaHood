@@ -13,7 +13,6 @@ import Navbar from "./components/navbar/Navbar";
 import Cart from "./components/cart/Cart.jsx";
 import {GlobalProvider} from '../src/components/pages/context/GlobalState'
 import ProductPage from "./components/pages/ProductPage.jsx";
-import SignUp from "./components/pages/SignUp.jsx";
 
 const App = () => {
   
