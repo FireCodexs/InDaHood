@@ -30,28 +30,28 @@ const Navbar = ({setIsShowCart, cart}) => {
                   </a>
 
                   <a
-                    href="/women" 
+                    href="/women"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-lg text-lg font-medium"
                   >
                     Women
                   </a>
 
                   <a
-                    href="/men"
+                    href="./men"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-lg text-lg font-medium"
                   >
                     Men
                   </a>
 
                   <a
-                    href="/wishlist"
+                    href="./wishlist"
                     className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-lg text-lg font-medium"
                   >
                     Wishlist
                   </a>
 
                   <a
-                    href="/contact"
+                    href="./contact"
                     className="flex items-center text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-lg text-lg font-medium"
                   >
                     <IoMdContact className="text-[24]"/>
@@ -62,7 +62,7 @@ const Navbar = ({setIsShowCart, cart}) => {
                     <div className="relative" onClick={() => setIsShowCart(true)}>
                     <AiOutlineShoppingCart/>
                     {cart.length > 0 && (
-                      <span className="bg-red-600 text-white w-5 h-5 rounded-full absolute -top-4 left-4 align-center leading-2">
+                      <span className="text-white w-5 h-5 rounded-full absolute -top-5 left-4 text-center leading-2">
                         {cart.length}
                       </span>
                     )}
@@ -138,28 +138,28 @@ const Navbar = ({setIsShowCart, cart}) => {
                 </a>
 
                 <a
-                  href="/women"
+                  href="./women"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Women
                 </a>
 
                 <a
-                  href="/men"
+                  href="./men"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Men
                 </a>
 
                 <a
-                  href="/wishlist"
+                  href="./wishlist"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Wishlist
                 </a>
 
                 <a
-                  href="/contact"
+                  href="./contact"
                   className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Contact
