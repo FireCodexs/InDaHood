@@ -47,7 +47,7 @@ const App = () => {
 
   return (
     <>
-      <section className="bg-[#333]">
+      <section className="bg-gradient-to-r from-indigo-700 via-purple-500 to-indigo-300">
         <Router>
           <Navbar cart={cart} setIsShowCart={setIsShowCart} />
           <Routes>
